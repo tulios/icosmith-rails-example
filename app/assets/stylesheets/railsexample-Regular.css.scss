@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'rails-example';
+  src: font-url('railsexample-Regular.eot');
+  src: font-url('railsexample-Regular.eot?#iefix') format('embedded-opentype'),
+       font-url('railsexample-Regular.ttf') format('truetype'),
+       font-url('railsexample-Regular.svg#rails_example') format('svg');
+}
+
+.rails_example {
+  font-family:'rails-example';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.rails_example.user:before{content:'\e001'}
+
+.rails_example.info:before{content:'\e002'}
+
+.rails_example.magnifying:before{content:'\e003'}
+
+.rails_example.signal:before{content:'\e004'}
+
